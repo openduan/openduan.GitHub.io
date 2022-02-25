@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans" class="no-js">
+<head> 
+  <title>段国国 &middot; http://blog.openduan.com</title>
+<link rel="stylesheet" href="css/style.min.css" type="text/css" /> 
+  <script src="js/jquery-1.9.1.min.js"></script> 
+  <script src="js/skel.min.js"></script> 
+  <!--[if lt IE 9]>
+<script src="js/html5.js" type="text/javascript"></script>
+<![endif]--> 
+  <style>
+
+/* = 中文版细节微调
+----------------------------------------------- */
+
+body, input, textarea, h1, h2, h3, h4 {
+    font-family: 'Source Sans Light', 'Apple LiSung Light', 'STHeiti Light', 'SimSun', sans-serif;
+    /* Windows 下的非衬线中文字体黑体以及微软雅黑在大字号下都非常难看，无奈选用宋体↑ */
+}
+html.ios > body,
+html.ios > input,
+html.ios > textarea,
+html.ios > h1,
+html.ios > h2,
+html.ios > h3,
+html.ios > h4 {
+    font-family: sans-serif;
+}
+body, input, textarea {
+    line-height: 1.5;
+    font-size: 20px;
+}
+html.ios > body,
+html.ios > input,
+html.ios > textarea {
+    line-height: 1.65;
+}
+h3 {
+    font-weight: bold;
+}
+.content h2 {
+    margin-bottom: 0.25em;
+}
+.content > .container p {
+    letter-spacing: -0.5px;
+}
+body > header .title p.subline {
+    font-size: 1.5em;
+    margin-top: 0.125em;
+}
+section#travel #maps h3 {
+    letter-spacing: -1px;
+    font-size: 1.2em;
+}
+section#photography a i {
+    vertical-align: text-top;
+}
+section#more .description p {
+    line-height: 1.45;
+}
+section#contact .sns-icons {
+    font-size: 2.5em;
+}
+footer a.icp {
+    font-size: 0.75em;
+    color: #bbb;
+}
+@media (max-width: 727px) {
+    body, input, textarea {
+        font-size: 18px;
+    }
+}
+@media (max-width: 535px) {
+    body, input, textarea {
+        font-size: 14px;
+        line-height: 1.35;
+    }
+}
+</style> 
+ </head> 
+ <body id="body" class="init header-fadeout"> 
+  <!-- Header --> 
+  <header class="header"> 
+   <nav class="top clearfix"> 
+    <a href="javascript:;" data-action="switch-fullscreen-mode"><span><i class="icon-expand"></i> 全屏浏览</span></a> 
+   </nav> 
+   <div class="header-background"> 
+    <img id="back-sticker" src="images/my-back.png" alt="我的背影" /> 
+   </div> 
+   <div class="title"> 
+    <h1>我是段国国</h1> 
+    <p class="subline">欢迎走进我的世界</p> 
+   </div> 
+   <button class="trigger" data-info="点此开始"><span>Trigger</span></button> 
+  </header> 
+  <!-- Intro --> 
+  <section id="intro" class="content"> 
+   <div class="container"> 
+    <h2>我是</h2> 
+    <p>&nbsp; &nbsp; &nbsp; &nbsp; 曾经有一份真挚的爱情摆在我面前，但我没有珍惜，等到失去了我才后悔莫及，尘世间最痛苦的事莫过于此。</p> 
+    <p>&nbsp; &nbsp; &nbsp; &nbsp; 如果上天可以给我再来一次的机会，我会对那个女孩说三个字：“我爱你!”如果非要在这份爱前加一个期限的话，我希望是一万年。</p> 
+   </div> 
+  </section> 
+  <!-- Travel --> 
+  <section id="travel" class="content"> 
+   <div class="container"> 
+    <h2>行万里路</h2> 
+    <p>&nbsp; &nbsp; &nbsp; &nbsp; 旅行，是我的主要学习方式之一，我每年有四分之一的时间都在路上。天地之间，有一本无字书，走着、看着，也思考着，永远也学不完。</p> 
+    <p>&nbsp; &nbsp; &nbsp; &nbsp; 对我来说，走遍世界不仅仅是个梦想。</p> 
+   </div>
+</section> 
+  <!-- Photography --> 
+  <section id="photography" class="content"> 
+   <div class="container"> 
+    <h2>光的艺术</h2> 
+    <p>&nbsp; &nbsp; &nbsp; &nbsp; 我爱摄影，尤其是壮美的自然风光。因为旅行，我爱上了摄影；也因为摄影，我更热爱旅行。</p> 
+    <a href="javascript:;" data-action="reload-montage"> </a> 
+   </div> 
+   <div id="montage" class="row uniform 25%"></div> 
+  </section> 
+  <!-- Design --> 
+  <section id="design" class="content"> 
+   <div class="container"> 
+    <h2>我爱设计</h2> 
+    <p>&nbsp; &nbsp; &nbsp; &nbsp; 我设计各种各样的东西，从平面设计到室内，再到用户界面和网页设计。</p> 
+    <p>&nbsp; &nbsp; &nbsp; &nbsp; 我很喜欢把我的创造性发挥到极限，更享受从无到有、渐渐完美的设计过程。我爱设计，也相信它会让生活更美好。</p> 
+    <div class="row uniform"> 
+     <figure class="6u"> 
+      <img src="images/placeholder.png" data-original="http://v6.res.dandyweng.com/images/blog-mockup.jpg" alt="我的博客主页" /> 
+     </figure> 
+     <figure class="6u"> 
+      <img src="images/placeholder.png" data-original="http://v6.res.dandyweng.com/images/album-mockup-sideview.jpg" alt="我的影集" /> 
+     </figure> 
+    </div> 
+   </div> 
+  </section> 
+  <!-- Programming --> 
+  <!-- Apple --> 
+  <section id="apple" class="content"> 
+   <div class="container"> </div> 
+  </section> 
+  <!-- More --> 
+  <section id="more" class="content"> 
+   <div class="container"> 
+    <h2>我的故事</h2> 
+    <p>&nbsp; &nbsp; &nbsp; &nbsp; 从我 18 岁起，就有幸受邀到国内一些知名高校演讲，与同龄人分享我的故事、思考和体会。下面的视频是我在同济大学的演讲，这是我第一次登上讲台，很紧张，还有些青涩。不过，还算勉强把想表达的都说出来了，如果你想更深入地了解我，那不妨一看。</p> 
+    <div class="row uniform"> 
+     <div id="video" class="7u 12u(tablet)"> 
+      <a href="javascript:;" data-action="play-video" data-youku-id="XNjUyOTM0ODI0" data-youtube-id="F4BWNANyNhs"> <img src="images/placeholder.png" data-original="http://v6.res.dandyweng.com/images/tju-speech.jpg" alt="我在同济大学的演讲" /> <i class="icon-play"></i> </a> 
+     </div> 
+     <div class="5u 12u(tablet) description"> 
+      <h3>为何不走寻常路</h3> 
+      <p>&nbsp; &nbsp; &nbsp; &nbsp; 世界已经为我们准备了一切。大路和小路，都在我们脚下。我一直在探寻，没有犹豫，说走就走。作为一名 homeschooler，走过的、还要走的，注定都是不寻常的路。我要问问这个世界：不走寻常路，风景是否这边独好？</p> 
+      <span>2013 年 12 月，上海</span> 
+     </div> 
+     <div id="player" class="12u"></div> 
+    </div>
+</div> 
+  </section> 
+  <!-- Say Hello --> 
+  <!-- Contact --> 
+  <section id="contact" class="content"> 
+   <div class="container"> 
+    <p>如果你想给我发送演讲或采访邀请，或者只是不想让你的留言被公开显示，可以发送邮件到</p> 
+    <a href="mailto:opendyh@Outlook.com">opendyh@Outlook.com</a> 
+     
+    <h3>你可以在这些社交网络上关注</h3>
+<div class="sns-icons row uniform 0%"> 
+  <div class="2u"> 
+      <a href="https://www.facebook.com/openduan" target="_blank" rel="external nofollow"><i class="icon-facebook"></i></a> 
+     </div> 
+     <div class="2u"> 
+      <a href="https://twitter.com/openduan" target="_blank" rel="external nofollow"><i class="icon-twitter"></i></a> 
+     </div> 
+     <div class="2u"> 
+      <a href="https://instagram.com/openduan" target="_blank" rel="external nofollow"><i class="icon-instagram"></i></a> 
+     </div> 
+     <div class="2u"> 
+      <a href="http://weibo.com/openduan" target="_blank" rel="external nofollow"><i class="icon-weibo"></i></a> 
+     </div> 
+     <div class="2u"> 
+      <a href="javascript:;" target="_blank" rel="external nofollow"><i class="icon-wechat"></i></a> 
+     </div> 
+     <div class="2u"> 
+      <a href="https://github.com/openduan" target="_blank" rel="external nofollow"><i class="icon-github"></i></a> 
+     </div> 
+  </div>
+</div> 
+  </section> 
+  <!-- Footer --> 
+  <footer> 
+   <div class="container">
+<p style="text-indent: -9999px;"></p> 
+   </div> 
+  </footer> 
+  <script src="js/plugins.js"></script> 
+  <script src="js/scripts.min.js"></script>   
+ </body>
+</html>
+
